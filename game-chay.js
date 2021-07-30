@@ -52,15 +52,6 @@ var score = 0;
 
 
 function vehinh() {
-    if (screen.matches) {
-        ctx.drawImage(form, 0, 0, 700, 400);
-        ctx.drawImage(cotduoi, cotx1, yDuoi1, cotduoi.width + 18, cotduoi.height );
-        ctx.drawImage(cottren, cotx1, yTren1, cottren.width + 18, cottren.height );
-        ctx.drawImage(cotduoi, cotx2, yDuoi2, cotduoi.width + 18, cotduoi.height );
-        ctx.drawImage(cottren, cotx2, yTren2, cottren.width + 18, cottren.height );
-        ctx.drawImage(cotduoi, cotx3, yDuoi3, cotduoi.width + 18, cotduoi.height );
-        ctx.drawImage(cottren, cotx3, yTren3, cottren.width + 18, cottren.height );
-    } else {
         ctx.drawImage(form, 0, 0, 600, 400);
         ctx.drawImage(cotduoi, cotx1, yDuoi1);
         ctx.drawImage(cottren, cotx1, yTren1);
@@ -68,7 +59,7 @@ function vehinh() {
         ctx.drawImage(cottren, cotx2, yTren2);
         ctx.drawImage(cotduoi, cotx3, yDuoi3);
         ctx.drawImage(cottren, cotx3, yTren3);
-    }
+        
     ctx.drawImage(bird, x, y);
     ctx.drawImage(dat, 0, 310);
     ctx.drawImage(dat, dat.width, 310);
