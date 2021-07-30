@@ -1,0 +1,139 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+    background-color: rgb(245 197 224);
+}
+
+.app{
+    display: flex;
+    height: 100vh;
+}
+
+.app__main{
+    position: relative;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 0 1px 20px rgba(0,0,0,0.3);
+}
+
+#canvas{
+    border-radius: 8px;
+}
+
+.app-control{
+    margin-left: -16px;
+}
+
+.btn{
+    border: none;
+    width: 100px;
+    padding: 8px 0;
+    border-radius: 8px;
+    color: #fff;
+    background-color: rgb(253, 95, 33);
+    margin-left: 16px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 60%);
+    cursor: pointer;
+}
+
+.btn:hover{
+    box-shadow: 0 2px 15px rgb(0 0 0 / 15%);
+}
+
+.btn-icons{
+    font-size: 16px;
+    color: #fff;
+}
+
+.footer-text{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #868686;
+    font-weight: 400;
+    margin-bottom: auto;
+}
+
+.footer{
+    margin-top: 16px;
+}
+
+.footer-text p{
+    margin: 0;
+}
+
+.game-over{
+    color: #fff;
+    font-size: 48px;
+    position: absolute;
+    top: 40%;
+    font-weight: 600;
+    display: none;
+}
+
+.score{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color: #666;
+}
+
+.score__number{
+    color: #ff4f23;
+}
+
+.figure{
+    display: flex;
+    position: relative;
+    top: -62px;
+    align-items: center;
+}
+
+.figure-info{
+    color: #fff;
+    font-size: 18px;
+
+}
+
+.figure-items{
+    display: flex;
+    margin: 0 8px;
+    height: 48px;
+    width: 48px;
+    background-color: #fafafa;
+    /* padding: 8px; */
+    border-radius: 50%;
+    cursor: pointer;
+    border: 4px solid #ccc;
+    overflow: hidden;
+}
+
+/* .figure-items:hover{
+    background-color: #ff4f23;
+} */
+
+.figure-img{
+    object-fit: cover;
+    width: 48px;
+    object-position: center;
+    margin: auto;
+}
+
+.Ngân .figure-img{
+    margin: 0;
+}
