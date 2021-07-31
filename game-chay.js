@@ -145,6 +145,9 @@ figureBird.addEventListener('click',function (){
     figureNgan.style.backgroundColor = "#fff";
     bird.src = "bird.png";
     figure = true;
+    yDuoi1 = cottren.height + 105 + yTren1;
+    yDuoi2 = cottren.height + 105 + yTren2;
+    yDuoi3 = cottren.height + 105 + yTren3;
 });
 
 var ngan = false;
