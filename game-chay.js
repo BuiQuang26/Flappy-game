@@ -148,6 +148,7 @@ figureBird.addEventListener('click',function (){
     yDuoi1 = cottren.height + 105 + yTren1;
     yDuoi2 = cottren.height + 105 + yTren2;
     yDuoi3 = cottren.height + 105 + yTren3;
+    ngan = false;
 });
 
 var ngan = false;
