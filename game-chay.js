@@ -214,7 +214,7 @@ window.onload = function anh() {
         if(score >= 5 && score %  5 == 0){
             if(dk_level){
                 dy += 0.2;
-                dcx += 0.2;
+                dcx += 0.5;
             }
             if(score >= 5 && score %  5 == 0)
             {
